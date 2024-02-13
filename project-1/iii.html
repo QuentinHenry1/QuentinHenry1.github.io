@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>III. GERYON'S PARENTS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" type="text/css" href="./iv2.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/bxr5vlg.css">
+    <link rel="stylesheet" type="text/css" href="./iv2.css" />
+        <title>III. GERYON'S PARENTS</title>
 </head>
-<body>
-   <h1>III. GERYON'S PARENTS</h1> 
-   <p>If you persist in wearing your mask at the supper table
-    Well Goodnight Then they said and drove him up
-    Those hemorrhaging stairs to the hot dry Arms
-    To the ticking red taxi of the incubus
-    Don't want to go want to stay Downstairs and read
-    </p>
-    
-    <a href="./index.html">Home</a>
-        <!--<a href="./iv.html">iv</a>-->
-        <!--<a href="./ii.html">ii</a>-->
-
-        <script>
-            var sites = [
-                
-                './ii.html',
-                './i.html',
-                
-                './iv.html',
-                './v.html',
-                './vi.html',
-                './vii.html',
-                './viii.html',
-                './ix.html',
-                './x.html',
-                './xi.html',
-                './xii.html',
-                './xiii.html',
-                './xiv.html',
-                './xv.html',
-                './xvi.html',
-            ];
+    <body>
+        <div class="parent1">
         
-            function randomSite() {
-                var i = parseInt(Math.random() * sites.length);
-                location.href = sites[i];
-            }
-        </script>
-        <a href="#" onclick="randomSite();">New Fragment</a>
+            <div class="buttons"> 
+                <a href="./index.html"><div class="box"id="box1"></div></a>
+                    <script>
+                        var sites = [
+                            
+                            './ii.html',
+                            
+                            './iii.html',
+                            './iv.html',
+                            './v.html',
+                            './vi.html',
+                            './vii.html',
+                            './viii.html',
+                            './ix.html',
+                            './x.html',
+                            './xi.html',
+                            './xii.html',
+                            './xiii.html',
+                            './xiv.html',
+                            './xv.html',
+                            './xvi.html',
+                        ];
+                    
+                        function randomSite() {
+                            var i = parseInt(Math.random() * sites.length);
+                            location.href = sites[i];
+                        }
+                    </script>
+                <a href="#" onclick="randomSite();"><button class="fragment"></button></a>
+            </div class="buttons">
+            <div class="textbox">
+                <div class="title1">
+                    <h1 class="title">III. GERYON'S PARENTS</h1> 
+                </div> 
+                <div class="content"> 
+                    <p>If you persist in wearing your mask at the supper table
+                        Well Goodnight Then they said and drove him up
+                        Those hemorrhaging stairs to the hot dry Arms
+                        To the ticking red taxi of the incubus
+                        Don't want to go want to stay Downstairs and read 
+                    </p> 
+                </div>
+            </div class="textbox">
+        </div>
 </body>
 </html>
