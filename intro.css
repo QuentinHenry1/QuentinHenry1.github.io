@@ -1,0 +1,56 @@
+
+body {
+    background: #dde1e7;
+ }
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+ 
+ .box{
+   height: 500px;
+   width: 500px;
+   background: #dde1e7;
+   border-radius: 10px;
+   margin: 10px;
+   box-shadow: -10px -10px 15px rgba(255,255,255,0.45), 10px 10px 15px rgba(94,104,121,0.3);
+   transition: 0.3s;
+  }
+ 
+
+
+ 
+
+ 
+ .box:hover{
+    
+   box-shadow: inset -10px -10px 15px rgba(255,255,255,0.45), inset 10px 10px 15px rgba(94,104,121,0.3);
+}
+
+div{
+    margin-top: 5%;
+    margin-right: 20%;
+   margin-left: 20%;
+
+    
+}
+
+ 
+
+ 
+
+
+ 

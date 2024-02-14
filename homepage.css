@@ -1,0 +1,34 @@
+
+body {
+    background: #dde1e7;
+ }
+
+ h1 {
+   
+   width: 100vw;
+    font-size: 20vw;
+   text-align: end;
+   color: rgba(255, 255, 255, 0.517);
+   font-family: helvetica;
+   position: absolute;
+   top: -250px;
+line-height: 180px;
+   
+   }
+
+   h1:hover{
+    color: rgb(255, 255, 255);
+   }
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+

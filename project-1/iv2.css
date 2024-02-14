@@ -1,9 +1,10 @@
 
 body {
-    background-color: rgb(244, 244, 244);
+     background: #dde1e7;
   }
 
   h1 {
+    width: 500px;
     padding-top: 5%;
     padding-right: 20%;
     padding-left: 20%;
@@ -46,23 +47,23 @@ body {
 
 
   #homenav {
-    color: rgb(239, 239, 239);
-background-color: rgb(255, 255, 255); 
+    background: #dde1e7;
+    background: #dde1e7; 
 padding: 5px 0px;
   }
 
   #homenav:hover {
-    background-color: #ffffff; 
-    color: rgb(247, 247, 247);
+    background: #dde1e7; 
+    background: #dde1e7;
     
   }
 
 
   button {
     
-    background-color: rgb(247, 247, 247); 
+    background: #dde1e7; 
     border: 0px solid #ffffff; 
-    color: rgb(247, 247, 247);
+    background: #dde1e7;
     text-shadow: -2px -2px 4px rgb(255, 255, 255), 2px 2px 4px rgba(194, 3, 3, 0.113) ;
     padding: 15px 32px;
     text-align: center;
@@ -70,10 +71,10 @@ padding: 5px 0px;
     display: inline-block;
     font-size: 16px;
     font-family: "garamond", garamond;
-    background: rgb(247, 247, 247);
+    background: #dde1e7;
     border-radius: 10px;
     margin: 10px;
-    box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.718), 2px 2px 6px rgba(171, 171, 171, 0.094);
+    box-shadow: -3px -3px 7px rgba(255,255,255,0.45), 3px 3px 7px rgba(94,104,121,0.3);
     
   }
 
@@ -86,14 +87,15 @@ padding: 5px 0px;
 
   button:hover {
     
-    box-shadow: inset -5px -5px 9px rgba(191, 191, 191, 0.117), inset 5px 5px 9px rgba(255, 255, 255, 0.616);
-  }
+    box-shadow: inset -3px -3px 7px rgba(255,255,255,0.45), inset 3px 3px 7px rgba(94,104,121,0.3);
+} 
+  
 
 
   .neu{
     height: 50vh;
     width: 50%;
-    background: #ffffff;
+    background: #dde1e7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +104,7 @@ padding: 5px 0px;
   .box{
     height: 50px;
     width: 50px;
-    background: rgb(247, 247, 247);
+    background: #dde1e7;
     border-radius: 10px;
     margin: 10px;
    }
@@ -115,12 +117,12 @@ padding: 5px 0px;
 
   
   .box{
-    box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.718), 2px 2px 6px rgba(171, 171, 171, 0.094);
+    box-shadow: -3px -3px 7px rgba(255,255,255,0.45), 3px 3px 7px rgba(94,104,121,0.3);
     
   }
   
   .box:hover{
-    box-shadow: inset -5px -5px 9px rgba(191, 191, 191, 0.117), inset 5px 5px 9px rgba(255, 255, 255, 0.616);
+    box-shadow: inset -3px -3px 7px rgba(255,255,255,0.45), inset 3px 3px 7px rgba(94,104,121,0.3);
 }
 
   .textbox{
