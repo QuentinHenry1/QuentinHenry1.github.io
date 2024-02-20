@@ -1,6 +1,6 @@
 
 body {
-    background: #dde1e7;
+    background: #ffffff;
  }
 
 
@@ -23,11 +23,13 @@ body {
  .box{
    height: 500px;
    width: 500px;
-   background: #dde1e7;
+   background: #fbfafa;
    border-radius: 10px;
    margin: 10px;
    box-shadow: -10px -10px 15px rgba(255,255,255,0.45), 10px 10px 15px rgba(94,104,121,0.3);
    transition: 0.3s;
+   transition-delay: 0.4s;
+   transition-timing-function: ease-in;
   }
  
 
