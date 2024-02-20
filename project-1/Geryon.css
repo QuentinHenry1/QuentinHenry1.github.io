@@ -1,0 +1,202 @@
+#parenti{
+    transform: rotate(-3.2Deg);
+    margin: 3%;
+}
+#parentii{
+    transform: rotate(3.1deg);
+    margin: 3%;
+}
+
+#parentiii{
+    transform: rotate(2.7deg);
+    margin: 3%;
+}
+
+#frontpage{
+    transform: rotate(2.7deg);
+    margin: 3%;
+}
+
+#parentiv{
+    transform: rotate(-3.8deg);
+    margin: 3%;
+}
+
+#parentv{
+    transform: rotate(-1.3deg);
+    margin: 3%;
+}
+
+#parentvi{
+    transform: rotate(3.5deg);
+    margin: 3%;
+}
+
+
+#parentvii{
+    transform: rotate(-2.4deg);
+    margin: 3%;
+}
+
+
+#parentviii{
+    transform: rotate(0.5deg);
+    margin: 3%;
+}
+#parentix{
+    transform: rotate(-0.7deg);
+    margin: 3%;
+}
+#parentx{
+    transform: rotate(0.1deg);
+    margin: 3%;
+}
+#parentxi{
+    transform: rotate(-3.7deg);
+    margin: 3%;
+}
+#parentxii{
+    transform: rotate(3deg);
+    margin: 3%;
+}
+#parentxii{
+    transform: rotate(-3deg);
+    margin: 3%;
+}
+#parentxiii{
+    transform: rotate(1.3deg);
+    margin: 3%;
+}
+#parentxiv{
+    transform: rotate(2.2deg);
+    margin: 3%;
+}
+#parentxv{
+    transform: rotate(-3.1deg);
+    margin: 3%;
+}
+#parentxvi{
+    transform: rotate(-2.4deg);
+    margin: 3%;
+}
+
+
+
+
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+  font-size: 25px;
+}
+
+h1{
+    margin-left: 7%;
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff0000;
+    font-style: italic;
+}
+
+html{
+    
+    overflow: hidden; 
+
+}
+
+
+
+div.parent{
+    background-color:rgb(255, 255, 255);
+    padding-left:7%;
+    padding-top:7%;
+    padding-right:20%;
+    padding-bottom:100%;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: -6%;
+    left:-8%;
+
+}
+
+
+.container{
+    background-color: #000000;
+    position: fixed;
+    top: -50%;
+    left: -40%;
+    height: 100vh;
+    width: 200vw;
+    z-index:-5;
+}
+
+.container:hover{
+    background-color: #ff0000;
+
+}
+
+#maintitle{
+    font-size: 100px;
+
+}
+
+#maintitle:hover{
+    transform: rotate(-1deg);
+    
+}
+
+#author{
+    transform: rotate(-3.4deg);
+    font-weight: 100;
+    padding-left: 2%;
+
+}
+
+#author:hover{
+    transform: rotate(-2.4deg);
+   }
+
+
+
+.home{
+    background-color: #000000;
+    height: 100vh;
+    width: 200vw;
+    position: fixed;
+    left:-20%;
+    left:-20%;
+    z-index:-5;
+    top: -50%;
+}
+
+.home:hover{
+    background-color: #ff0000;
+    
+}
+#frontpage{
+    transform: rotate(2.7deg);
+    margin: 3%;
+    background-color: white;
+    width: 110vw;
+    height: 100vh;
+    position: fixed;
+    left: -10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    top:-2%;
+}
+
+    
