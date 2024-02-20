@@ -92,6 +92,7 @@ pre{
 h1{
     margin-left: 7%;
     font-size: 45px;
+    font-weight: 100;
 }
 
 
@@ -197,6 +198,10 @@ div.parent{
     padding-top: 10%;
     padding-left: 10%;
     top:-2%;
+}
+
+.title1:hover{
+    transform: rotate(-1deg);
 }
 
     
