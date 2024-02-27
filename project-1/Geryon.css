@@ -1,3 +1,7 @@
+body{
+    font-size: 7vw;
+}
+
 #parenti{
     transform: rotate(-3.2Deg);
     margin: 3%;
@@ -86,12 +90,13 @@
 pre{
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
-  font-size: 25px;
+  font-size: 0.25em;
 }
 
 h1{
+    
     margin-left: 7%;
-    font-size: 45px;
+    font-size: 0.4em;
     font-weight: 100;
 }
 
@@ -109,6 +114,8 @@ a{
 a:hover{
     color: #ff0000;
     font-style: italic;
+    letter-spacing: -0.1rem;
+    
 }
 
 html{
@@ -122,13 +129,13 @@ html{
 div.parent{
     background-color:rgb(255, 255, 255);
     padding-left:7%;
-    padding-top:7%;
+    padding-top:5%;
     padding-right:20%;
     padding-bottom:100%;
     height: 100vh;
     width: 100vw;
     position: fixed;
-    top: -6%;
+    top: -5%;
     left:-8%;
 
 }
@@ -150,7 +157,7 @@ div.parent{
 }
 
 #maintitle{
-    font-size: 100px;
+    font-size: 7vw;
     
 
 }
@@ -176,10 +183,10 @@ div.parent{
 .home{
     background-color: #000000;
     height: 100vh;
-    width: 200vw;
+    width: 100vw;
     position: fixed;
-    left:-20%;
-    left:-20%;
+    
+    
     z-index:-5;
     top: -50%;
 }
@@ -199,10 +206,26 @@ div.parent{
     padding-top: 10%;
     padding-left: 10%;
     top:-2%;
+    
 }
 
 .title1:hover{
     transform: rotate(-1deg);
+    transition: 0.1s;
 }
 
+
+@media screen and (max-width: 780px) {
+    body {
+      font-size: 10vw;
+    }
+    div.parent{
+        top:0%;
+        padding-right:5%;
+    }
+
+    pre{
+        font-size: 0.3em;
+    }
+  }
     
