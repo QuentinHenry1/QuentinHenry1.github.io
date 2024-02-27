@@ -84,6 +84,11 @@ body{
     margin: 3%;
 }
 
+html:focus
+{
+  
+  outline: 1px solid rgb(255, 0, 0);
+}
 
 
 
@@ -117,6 +122,8 @@ a:hover{
     letter-spacing: -0.1rem;
     
 }
+
+
 
 html{
     
@@ -227,5 +234,9 @@ div.parent{
     pre{
         font-size: 0.3em;
     }
+
+   
+
+    
   }
     
