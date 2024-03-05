@@ -1,0 +1,81 @@
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    font-size: 1vw ;
+    padding-top:4%;
+    padding-left:2%;
+}
+
+
+
+.Q{
+display: flex;
+flex-wrap: wrap;
+width: 41em; 
+
+
+}
+
+.pix:hover{
+    background-color: rgb(255, 255, 255);
+    
+   
+
+    
+    
+}
+
+
+
+  .pix{
+    height: 1em;
+    width: 1em;
+}
+.empty{
+    background-color: white;
+}
+
+.grey_1{
+    background-color: lightgray;
+   
+}
+.grey_2{
+    background-color: rgb(155, 155, 155);
+    
+}
+.grey_3{
+    background-color: rgb(95, 94, 94);
+    
+}
+.grey_4{
+    background-color: rgb(61, 61, 61);
+    
+}
+
+
+.black{
+    background-color: black;
+    
+}
+
+.projectbutton{
+    position: fixed;
+    top: 10%;
+    right:15%
+   
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    font-family: Helvetica, Sans-Serif;
+    font-size: 1.5em;
+}
+
+a:hover{
+    color: white;
+    transition: 0.2s;
+    
+}

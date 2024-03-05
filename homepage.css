@@ -5,9 +5,16 @@
   font-family:  Helvetica, sans-serif;
    font-size: 20vw;
    line-height: 0.8em;
+   -webkit-mask-image: linear-gradient(rgb(255, 255, 255), transparent);
+  mask-image: linear-gradient (rgb(255, 255, 255), transparent);
    }
 
-
+svg{
+    position: fixed;
+    -webkit-mask-image: linear-gradient(rgb(255, 255, 255), transparent);
+  mask-image: linear-gradient (rgb(255, 255, 255), transparent);
+  z-index: -5;
+}
 
 
 a{
@@ -23,11 +30,13 @@ p{
     top: -20%;
     z-index: -5;
     
+    
 }
 
 body{
     background-image: linear-gradient(to bottom, rgb(255, 255, 255) , rgb(0, 0, 0));
     padding-bottom: 2000vh;
+    
 }
 
 
